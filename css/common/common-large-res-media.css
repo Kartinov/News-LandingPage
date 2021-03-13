@@ -1,0 +1,18 @@
+/* Large responsive styles */
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+    /* Common */
+    #header .avatar {
+        width: 30%;
+    }
+    div.article-grid div.vertical {
+        width: 47.5%;
+    }
+    div.login .mobile img, div.order .mobile img, div.login .mobile img {
+        width: 30%;
+    }
+    div.billing .author {
+        display: block;
+        right: -250px;
+    }
+}

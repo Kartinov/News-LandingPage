@@ -1,0 +1,195 @@
+/* Tablet responsive styles */
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    #header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #header .avatar {
+        width: 45%;
+    }
+    #header .col-xs-6 {
+        padding-left: 5px !important;
+    }
+    #header .logo {
+        padding: 40px 48px 30px 20px;
+    }
+    #header img {
+        width: 50%;
+    }
+    #header .logo img {
+        display: none;
+    }
+    #header .logo img.logo-small {
+        display: block;
+    }
+    div.article-grid {
+        padding-left: 30px;
+    }
+    div.article-grid .filter-sort {
+        display: block;
+        margin-bottom: 30px;
+    }
+    div.article-grid .filter-sort .otpions {
+        width: 100%;
+    }
+    div.article-grid ul.filter {
+        display: none;
+    }
+    div.grey2 {
+        width: 13%;
+    }
+    #header input {
+        width: 95%;
+    }
+    div.sidebar {
+        width: 22%;
+    }
+    div.sidebar ul {
+        padding-right: 30px;
+    }
+    div.article-grid div.horizontal, div.article-grid div.vertical, div.article-grid .text, div.article-grid .image {
+        width: 100%;
+    }
+    div.article-grid div.horizontal .text {
+        margin-bottom: 20px;
+    }
+    #footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #footer ul li {
+        margin-right: 5px;
+    }
+    div.pricing, div.faq {
+        width: 92%;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+    }
+    div.order {
+        width: 92%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    div.login {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 0px;
+    }
+    div.login .filter-language {
+        display: none;
+    }
+    div.register {
+        width: 92%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    div.order .mobile, div.login .mobile {
+        display: none;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+    }
+    div.order .mobile {
+        display: none;
+    }
+    div.faq, div.contact, div.payment-method {
+        width: 100%;
+        padding-left: 30px;
+    }
+    div.locations {
+        width: 20%;
+        margin-left: 30px !important;
+    }
+    #footer ul {
+        margin-left: 20%;
+    }
+    #footer ul li {
+        margin-top: 10px;
+    }
+    #footer .copyright {
+        color: #BCD4E0;
+        font-size: 14px;
+        font-family: Museo-300, sans;
+        margin-top: 10px;
+        margin-right: 20%;
+    }
+    #footer.grey3 .copyright {
+        color: #647886;
+        width: 350px;
+        margin-top: 10px;
+        margin-right: 20%;
+    }
+    div.categories, div.billing, div.payment-method {
+        width: 92% !important;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    div.categories h1, div.billing h1, div.payment-method h1 {
+        width: 40%;
+    }
+    div.author {
+        margin-right: -250px;
+    }
+    div.categories .icon-user-white, div.billing .icon-user-white, div.payment-method .icon-user-white {
+        display: block;
+        /* //right:30px; */
+    }
+    div.contact, div.payment-method {
+        padding-left: 10px;
+        width: 70%;
+        padding-right: 30px;
+    }
+    div.billing ul li h1 {
+        width: 100% !important;
+    }
+    div.article-content {
+        padding-left: 20px;
+    }
+    div.article-content>img {
+        width: 100%;
+        position: relative;
+        margin-top: 30px;
+        right: 10px;
+    }
+    div.article-sidebar {
+        float: left !important;
+        position: absolute;
+        right: -200px;
+    }
+    div.article-content {
+        width: 90%;
+    }
+    div.grey {
+        display: none;
+    }
+    div.article-content>p.first {
+        margin-top: 30px;
+        width: 100%;
+        padding-right: 30px;
+    }
+    div.article-content a.show-sidebar {
+        display: block;
+        float: left;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    div.article-sidebar {
+        float: left !important;
+        position: absolute;
+        right: -270px;
+        width: 300px;
+        padding-right: 30px;
+        margin-right: 0px !important;
+    }
+}

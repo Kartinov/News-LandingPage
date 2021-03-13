@@ -1,0 +1,305 @@
+/* Mobile responsive styles*/
+
+@media only screen and (max-width: 600px) {
+    .btn-default {
+        padding: 11px 15px;
+    }
+    #header .avatar {
+        width: 60%;
+    }
+    #header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #header .avatar {
+        overflow: hidden;
+        width: 70px;
+        height: 65px;
+    }
+    #header .col-xs-6 {
+        padding-left: 5px !important;
+        width: 70%;
+    }
+    #header .logo {
+        padding: 40px 48px 30px 10px;
+    }
+    #header img {
+        width: 65%;
+    }
+    #header input {
+        width: 95%;
+    }
+    #header .col-xs-6 {
+        padding-left: 20px !important;
+    }
+    div.article-grid {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    div.article-grid .filter-sort {
+        display: block;
+        margin-bottom: 30px;
+    }
+    div.article-grid .filter-sort .otpions {
+        width: 100%;
+    }
+    div.article-grid ul.filter {
+        display: none;
+    }
+    div.article-grid {
+        margin-top: 25px;
+    }
+    #header .logo img {
+        display: none;
+    }
+    #header .logo img.logo-small {
+        display: block;
+    }
+    div.grey2 {
+        width: 13%;
+    }
+    #header input {
+        width: 95%;
+    }
+    div.sidebar {
+        width: 30%;
+        position: absolute;
+        right: 0px;
+        display: none;
+    }
+    div.grey2 {
+        display: none;
+    }
+    div.sidebar ul {
+        padding-right: 30px;
+    }
+    div.article-grid .show-categories {
+        margin-left: 10px;
+        display: block;
+    }
+    div.article-grid div.horizontal, div.article-grid div.vertical, div.article-grid .text, div.article-grid .image {
+        width: 100%;
+    }
+    div.article-grid div.horizontal .text {
+        margin-bottom: 20px;
+    }
+    #footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #footer ul {
+        margin-bottom: 0px;
+    }
+    #footer ul li {
+        margin-right: 5px;
+        margin-top: 30px;
+    }
+    #footer .copyright {
+        clear: both;
+        width: 100%;
+        margin-top: 0px;
+    }
+    div.pricing, div.faq {
+        width: 88%;
+        margin-left: 60px !important;
+        margin-right: 30px !important;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+    div.order, div.login, div.login {
+        width: 88%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    div.order .mobile {
+        display: none;
+    }
+    div.order .mobile {
+        display: none;
+    }
+    div.pricing ul li h1.price {
+        font-size: 40px;
+        margin-right: 0px;
+    }
+    div.pricing ul li ul li {
+        font-size: 15px;
+    }
+    #footer ul {
+        width: 100%;
+    }
+    #footer.grey3 .copyright {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    div.faq, div.contact {
+        width: 92%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    div.locations {
+        width: 100%;
+        margin-left: 30px !important;
+    }
+    div.locations>div {
+        float: left;
+        width: 45%;
+    }
+    div.locations div.separator {
+        display: none;
+    }
+    div.contact .col-xs-6 {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    div.contact .padding-left .icon {
+        left: 10px;
+    }
+    div.login {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 0px;
+    }
+    div.order .mobile, div.login .mobile {
+        display: none;
+    }
+    div.login .filter-language {
+        display: none;
+    }
+    div.register {
+        width: 88%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    div.register input[type="text"], div.register input[type="email"], div.register input[type="password"] {
+        width: 100%;
+    }
+    div.register .gender .filter-select {
+        width: 100%;
+    }
+    div.register .birthday {
+        width: 100% !important;
+    }
+    div.register p {
+        padding: 10px 30px;
+    }
+    div.register form {
+        padding: 20px;
+    }
+    div.categories {
+        width: 90% !important;
+        margin-left: 30px;
+    }
+    #footer ul {
+        margin-left: 0%;
+        float: left !important;
+    }
+    #footer ul li {
+        margin-top: 20px;
+    }
+    #footer .copyright {
+        color: #BCD4E0;
+        font-size: 14px;
+        font-family: Museo-300, sans;
+        margin-top: 10px;
+        float: left !important;
+        text-align: left;
+        padding-left: 0px;
+    }
+    #footer.grey3 .copyright {
+        color: #647886;
+        width: 350px;
+        margin-top: 10px;
+        margin-right: 20%;
+    }
+    div.categories, div.billing, div.payment-method {
+        width: 92% !important;
+        margin-left: 30px;
+        padding-right: 10px;
+        margin-top: 100px;
+    }
+    div.categories .icon-user-white, div.billing .icon-user-white, div.payment-method .icon-user-white {
+        display: block;
+    }
+    div.billing .icon-user-white {
+        right: 10px;
+    }
+    div.categories h1, div.billing h1 {
+        width: 25%;
+    }
+    div.author {
+        position: absolute;
+        right: -250px;
+    }
+    div.billing ul li .col-xs-4 {
+        width: 37% !important;
+        padding-left: 20px;
+    }
+    div.billing ul li h1 {
+        width: 100%;
+    }
+    div.billing ul li .col-xs-1 {
+        padding-left: 10px;
+    }
+    div.billing ul li .col-xs-6 {
+        padding-right: 0px;
+    }
+    div.billing ul li h1 {
+        font-size: 18px;
+    }
+    div.billing ul li h2 {
+        font-size: 14px;
+    }
+    div.billing ul li h1 {
+        width: 100% !important;
+    }
+    div.article-content {
+        padding-left: 20px;
+    }
+    div.article-content>img {
+        width: 100%;
+        position: relative;
+        margin-top: 30px;
+        right: 10px;
+        z-index: 1;
+    }
+    div.article-sidebar {
+        float: left !important;
+        position: absolute;
+        right: -270px;
+        width: 300px;
+        padding-right: 30px;
+        margin-right: 0px !important;
+    }
+    div.article-content {
+        width: 90%;
+    }
+    div.grey {
+        display: none;
+    }
+    div.article-content>p.first {
+        margin-top: 30px;
+        width: 100%;
+        padding-right: 30px;
+    }
+    div.article-content a.show-sidebar {
+        display: block;
+        float: left;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    div.article-content>span {
+        margin-right: 50px;
+    }
+    div.article-sidebar .next-article {
+        margin-bottom: 20px;
+    }
+}

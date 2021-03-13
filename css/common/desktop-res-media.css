@@ -1,0 +1,115 @@
+/* Desktop responsive styles */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Common */
+    #header .avatar {
+        width: 35%;
+    }
+    /* Home */
+    div.article-grid div.vertical {
+        width: 46%;
+    }
+    #header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #header img {
+        width: 150px;
+    }
+    div.article-grid {
+        width: 80%;
+        padding-left: 30px;
+    }
+    div.sidebar {
+        width: 15%;
+    }
+    div.sidebar ul {
+        padding-right: 0px;
+    }
+    div.grey2 {
+        width: 14%;
+    }
+    div.article-grid div.horizontal .text {
+        width: 50%;
+    }
+    div.article-grid div.horizontal .image {
+        width: 50%;
+    }
+    div.login .btn-default, div.order .btn-default, div.pricing .btn-default {
+        padding: 11px 15px;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+    }
+    div.pricing span.currency {
+        margin-left: 10px;
+    }
+    div.order .mobile, div.login .mobile {
+        display: none;
+    }
+    div.login .filter-language {
+        width: 100%;
+        display: none;
+    }
+    div.order h1 {
+        border-bottom: none;
+    }
+    div.pricing .btn-default {
+        padding: 11px 15px !important;
+    }
+    div.login {
+        margin-left: 0px;
+    }
+    div.register {
+        margin-right: 0px;
+    }
+    div.login .mobile img, div.order .mobile img, div.login .mobile img {
+        width: 30%;
+    }
+    div.login span.pull-right, div.order span.pull-right {
+        font-size: 12px;
+    }
+    div.login .mobile h2, div.order .mobile h2 {
+        margin: 0px 0px 20px 20px;
+        float: left;
+        font-family: Museo-700, sans;
+        font-size: 15px;
+    }
+    div.login .mobile p, div.order .mobile p {
+        float: left;
+        width: 110px;
+        margin-left: 20px;
+        font-family: Museo-300, sans;
+        font-size: 14px;
+        color: #9ba0a5;
+    }
+    div.categories, div.billing, div.payment-method {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    div.categories .col-xs-6, div.categories .col-xs-6 {
+        width: 30%;
+    }
+    div.author {
+        margin-right: -250px;
+    }
+    div.categories .icon-user-white, div.billing .icon-user-white, div.payment-method .icon-user-white {
+        display: block;
+        right: 30px;
+    }
+    div.billing ul li h1 {
+        width: 100% !important;
+    }
+    div.article-content {
+        padding-left: 20px;
+    }
+    div.article-content>img {
+        width: 85%;
+    }
+    div.article-sidebar .video-box li {
+        float: left !important;
+    }
+}
